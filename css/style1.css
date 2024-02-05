@@ -53,3 +53,22 @@ main #title h3 {
   font-size: 12px;
   font-weight: normal;
 }
+
+/*---------FRONT IMAGES---------*/
+
+#front_images {
+  margin: 10px 4px 0px 4px;
+}
+
+.first_img {
+  width: 49%;
+}
+
+.second_img {
+  width: 42%;
+}
+
+#front_images p {
+  margin: 0;
+  font-size: 8px;
+}

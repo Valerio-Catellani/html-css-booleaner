@@ -16,9 +16,8 @@ header {
   position: absolute;
   height: 50%;
   bottom: 10%;
-  left: 12%;
-  /*ho spostato il logo di (100-80)/2 +2 visto che 80% è la dimensione che ho dato al main*/
-
+  left: 10%;
+  /*ho inserito la percentuale data da 80% (width del main)/2 */
 }
 
 #logo img {
@@ -30,34 +29,33 @@ header {
 /*---------------------------MAIN----------------------------*/
 
 main {
-  width: 80%;
-  /*dimensione e margin impostati per il bonus dell'esericzio*/
   margin: 10px auto;
+  width: 80%;
 }
 
 /*---------TITLE---------*/
 
 h1 {
-  font-size: 24px;
+  font-size: 3rem;
   margin: 0;
 
 }
 
 main #title h2 {
   display: inline;
-  font-size: 12px;
+  font-size: 1.5rem;
   color: #4ea0ff;
 }
 
 main #title p {
   display: inline;
-  font-size: 12px;
+  font-size: 1.5rem;
   color: #808080;
 }
 
 main #title h3 {
   margin: 0;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: normal;
   color: #808080;
 }
@@ -78,14 +76,14 @@ main #title h3 {
 
 #front_images p {
   margin: 0;
-  font-size: 8px;
+  font-size: 1rem;
 }
 
 /*---------MAIN CONTENT---------*/
 
 #main_content {
   margin: 10px 0;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 #main_content h4 {
@@ -129,25 +127,28 @@ thead {
 aside h4 {
   color: #808080;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin: 20px 0 5px 0;
 }
 
 .intrest {
-  height: 100px;
-  width: 20%;
+  height: 175px;
+  width: 250px;
   margin-bottom: 10px;
   background-size: cover;
   color: white;
 }
 
 aside a {
-  padding: 5px;
-  margin: 0;
+  font-size: 1.2rem;
+  padding: 15px 10px;
+  display: block;
+  /*I link sono inline di default inline*/
   color: inherit;
   /* Usa il colore ereditato dal genitore (solitamente il testo circostante) */
   text-decoration: none;
   /* Rimuove la sottolineatura */
+  font-weight: bold;
 }
 
 #intrest1 {

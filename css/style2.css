@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/*---------------------------HEADER----------------------------*/
+header {
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-color: #4ea0ff;
+  height: 80px;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  height: 50%;
+  bottom: 10%;
+  left: 12%;
+  /*ho spostato il logo di (100-80)/2 +2 visto che 80% è la dimensione che ho dato al main*/
+
+}
+
+#logo img {
+  height: 100%;
+}
+
+
+
+/*---------------------------MAIN----------------------------*/
+
+main {
+  width: 80%;
+  /*dimensione e margin impostati per il bonus dell'esericzio*/
+  margin: 10px auto;
+}
+
+/*---------TITLE---------*/
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+
+}
+
+main #title h2 {
+  display: inline;
+  font-size: 12px;
+  color: #4ea0ff;
+}
+
+main #title p {
+  display: inline;
+  font-size: 12px;
+  color: #808080;
+}
+
+main #title h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: normal;
+  color: #808080;
+}
+
+/*---------FRONT IMAGES---------*/
+
+#front_images {
+  margin: 10px 0;
+}
+
+.first_img {
+  width: 49%;
+}
+
+.second_img {
+  width: 42%;
+}
+
+#front_images p {
+  margin: 0;
+  font-size: 8px;
+}
+
+/*---------MAIN CONTENT---------*/
+
+#main_content {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+#main_content h4 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+#main_content .important {
+  background-color: #ffff00;
+}
+
+#main_content ul {
+  padding-left: 2%;
+}
+
+/*--TABLE--*/
+
+#main_content table {
+  margin: 10px 0;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.set_width {
+  width: 25%;
+}
+
+.colored_background {
+  background-color: #b1e5f2;
+}
+
+thead {
+  font-weight: bold;
+  color: white;
+  background-color: #20a9e5;
+}
+
+/*---------ASIDE---------*/
+
+aside h4 {
+  color: #808080;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 20px 0 5px 0;
+}
+
+.intrest {
+  height: 100px;
+  width: 20%;
+  margin-bottom: 10px;
+  background-size: cover;
+  color: white;
+}
+
+aside a {
+  padding: 5px;
+  margin: 0;
+  color: inherit;
+  /* Usa il colore ereditato dal genitore (solitamente il testo circostante) */
+  text-decoration: none;
+  /* Rimuove la sottolineatura */
+}
+
+#intrest1 {
+  background-image: url(../img/monitor.jpg);
+}
+
+#intrest2 {
+  background-image: url(../img/graph.jpg);
+}

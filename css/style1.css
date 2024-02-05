@@ -93,3 +93,26 @@ main #title h3 {
 #main_content ul {
   padding-left: 2%;
 }
+
+/*--TABLE--*/
+
+table {
+  margin: 10px 0;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.set_width {
+  width: 25%;
+}
+
+.colored_background {
+  background-color: #b1e5f2;
+}
+
+thead {
+  font-weight: bold;
+  color: white;
+  background-color: #20a9e5;
+}

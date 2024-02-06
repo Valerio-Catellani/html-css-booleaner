@@ -36,6 +36,7 @@ main {
 /*---------TITLE---------*/
 
 h1 {
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   margin: 0;
 
